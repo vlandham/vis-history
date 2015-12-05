@@ -32,6 +32,10 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "react": "^0.14.3"
+    "git-static": "git://github.com/vlandham/git-static.git",
+    "history": "^1.13.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.0"
   }
 }
