@@ -1,0 +1,8 @@
+include ./includes/header
+  body
+    h3= repo.name
+    h3= repo.path
+    ul
+      each val in commits
+        li
+          a(href='/serve/'+ repo.name + "/"+ val.sha)= val.subject

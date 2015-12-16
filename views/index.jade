@@ -1,0 +1,6 @@
+include ./includes/header
+  body
+    ul
+      each val in repos
+        li
+          a(href='/repo/' + val.name)= val.name

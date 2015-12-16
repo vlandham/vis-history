@@ -33,7 +33,6 @@ var Repos = React.createClass({
     var repo = {};
     git.getBranches(path, function(branches){
       this.setState({
-        console.log(branches);
         branches[repo.path] = branches;
       });
     })

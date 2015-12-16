@@ -1,9 +1,9 @@
 module.exports = {
-  repo1: {
-    path : '~/code/js/buoyant_deploy/',
+  Buoyant: {
+    path : '/Users/vlandham/code/js/buoyant_deploy',
     name : 'Buoyant'
   },
-  repo2: {
+  Vis: {
     path : 'code/js/vis/',
     name : 'Vis'
   }
